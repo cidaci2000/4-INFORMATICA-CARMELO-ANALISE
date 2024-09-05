@@ -1,0 +1,22 @@
+body{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(241, 241, 241);
+    align-items: center;
+}
+
+button{
+    border-radius: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.caixadeformulario{
+    background-color:pink;
+    justify-content: center;
+    width: 500;
+    height: 600;
+    margin: auto;
+    justify-items: center;
+    border-radius: 5%;
+}
+

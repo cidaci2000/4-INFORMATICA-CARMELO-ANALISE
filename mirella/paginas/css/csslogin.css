@@ -1,0 +1,34 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(to right, rgb(80, 86, 90), rgb(17, 54, 71));
+}
+div{
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 80px;
+  border-radius: 15px;
+  color: #050202;
+}
+input{
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+.inputSubmit{
+  background-color: rgb(169, 210, 252);
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+  
+}
+.inputSubmit:hover{
+  background-color: rgb(241, 151, 229);
+  cursor: pointer;
+}

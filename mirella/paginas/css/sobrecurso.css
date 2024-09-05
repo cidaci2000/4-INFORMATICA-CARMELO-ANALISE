@@ -1,0 +1,150 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: -20px;
+    margin: 10px;
+    font-size: 15px;
+    height: 35px;
+}
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+    background: rgb(107, 165, 236);
+    height: 5vh;
+    margin:125px;
+    width: 710px;
+  }
+
+  .imagemlogo{
+    margin: center;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+  }
+
+  div{
+    color: white;
+  }
+
+body{
+  background-color: rgb(255, 249, 249);
+}
+
+
+.item{
+  width: 100%;
+  height:100%;
+  flex-shrink:0;
+  opacity: 0.6;
+  transition:all 600ms ease-in-out;
+}
+
+.current-item{
+  opacity: 1;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+main {
+  background-size: cover;
+  height: 92vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  transition: transform 0.3s ease-in;
+  list-style: none;
+ display: flex;
+ margin: 50px;
+ align-items: center;
+}
+
+.nav-list li {
+  letter-spacing: 5px;
+  margin-right: 50px;
+}
+
+@media (max-width: 999px) {}
+  body {
+    overflow-x: hidden;
+  }
+ 
+  .conteudo{
+    display: inline-block;
+    color:black;
+  }
+
+.fotodocurso{
+   display: inline-block;
+    background-color: rgb(225, 234, 227);
+    width: 595px;
+    height:400px;
+    float: left;
+    Data de início
+    Data de término
+    Professor
+    Valor
+      margin: 27px;px;
+    
+}
+
+ .caixaformulario{
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #c11f93;
+    width: 700px;
+    height:600px;
+    float:right;
+    margin:20px;
+ }
+ 
+.linha{
+  background-color: black;
+  height: 2px;
+}
+
+.textocurso{
+  background-color: rgb(254, 153, 95);
+  text-align: center;
+  align-items: center;
+}
+
+.textodois{
+  color:black;
+  font-size: 45px;
+  margin:12px 45px ;
+}
+
+.nomeprofessor{
+  color: black;
+  font-size: 25px;
+}
+
+button{
+  color: black;
+  background-color: white;
+  border-radius:10%;
+  border-color: black;
+}
+
+figcaption{
+  color: black;
+}

@@ -1,0 +1,74 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color:black;
+  padding: 20px;
+  color:white;
+}
+
+nav {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topo {
+  padding: 0px 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(92, 173, 127);
+}
+.rodape {
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  background-color:rgb(8, 8, 8);
+  color: #fff;
+  font-size: 20px;
+}
+
+body{
+  background-color:rgb(222, 219, 219);
+}
+
+main{
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(126, 126, 126);
+}
+
+.cursos-primeira-linha {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style:none;
+}
+
+.cursos-segunda-linha {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style:none;
+}
+
+.curso{
+  background:rgb(123, 123, 123);
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color:white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
